@@ -6,8 +6,6 @@ public class PersonagemController : MonoBehaviour
 {
     public Rigidbody2D rb2d;
     public float vel;
-    // Start is called before the first frame update
-    public float vel;
     void Start()
     {
         rb2d=this.GetComponent<Rigidbody2D>();
