@@ -17,16 +17,8 @@ public class PersonagemController : MonoBehaviour
     void Update()
     {
         float horizontalInput = Input.GetAxis("Horizontal");
-<<<<<<< HEAD
         if(rb2d.velocity.magnitude<5){
             rb2d.velocity += new Vector2(vel,0)*horizontalInput*Time.deltaTime;
         }
-=======
-        if(rb2d.velocity.magnitude < 5){
-            rb2d.velocity +=  new Vector2(vel,0) * horizontalInput*Time.deltaTime;
-        }
-      
-
->>>>>>> e1db59a2c1ae6ec8d9e4e9a1700febe7e27fc35c
     }
 }
